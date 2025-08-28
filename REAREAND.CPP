@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 void main()
-{/*This program is to calculate area and perimeter of square.*/
+{/*This program is to calculate area and perimeter of rectangle.*/
 	int a,b,c,d;
 	clrscr();
 	printf("Enter the length and breath of rectangle");
@@ -11,4 +11,5 @@ void main()
 	d=2*a+2*b;
 	printf("%d is perimeter os square.\n", d);
 	getch();
+
 }
